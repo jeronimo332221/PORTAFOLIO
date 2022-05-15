@@ -1,0 +1,142 @@
+main {
+  @include tablet {
+    top: 0;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  margin-top: 20rem;
+  margin-bottom: 3rem;
+  height: auto;
+  width: 90%;
+
+  margin: auto;
+  .descripcion {
+    @include tablet {
+      margin-top: 50rem;
+    }
+    margin-top: 40rem;
+
+    .proyectos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      @include tablet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 6.5rem;
+        height: 44rem;
+        margin-bottom: 2rem;
+      }
+
+      .proyecto {
+        margin-left: 10rem;
+        margin-right: -10rem;
+        width: 42rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 15rem;
+
+        @include tablet {
+          width: 32rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          margin-left: 10rem;
+          margin-right: -10rem;
+        }
+
+        a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+
+          .imagen {
+            background-color: rgba($cy-3, $alpha: 0.7);
+            height: 14rem;
+            width: 100%;
+
+            p.table {
+              text-align: center;
+              font-weight: $c;
+              font-size: 3rem;
+              width: 100%;
+              height: 100%;
+              background-color: rgba($cy-5, $alpha: 0.9);
+              padding: 2rem;
+
+              &:hover {
+                border-bottom: 2rem solid $cy-3;
+
+                transition: border-bottom, border-radius;
+                transition-duration: 1.2s;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+    p.p {
+      width: 100%;
+      font-size: 3.3rem;
+      margin: auto;
+      margin-bottom: 5rem;
+      strong {
+        color: $cy-1;
+      }
+      @include tablet {
+        width: 60%;
+        font-size: 5rem;
+        margin: auto;
+        margin-bottom: 5rem;
+      }
+    }
+    .h4 {
+      text-align: center;
+      text-align: center;
+      padding: 2rem;
+      margin: auto;
+      height: 20%;
+      width: 100%;
+
+      &:hover {
+        cursor: pointer;
+        color: $cy-3;
+      }
+    }
+  }
+}
+
+body > main > section.descripcion > div > div > a > div {
+  background-position: center;
+  background-size: cover;
+  color: $cy-4;
+}
+body > main > section.descripcion > div > div:nth-child(1) > a > div {
+  background-image: url("../../../build/img/0956c2ec-ce78-4b9b-9a03-4b4efb073cf2.jpg");
+}
+body > main > section.descripcion > div > div:nth-child(2) > a > div {
+  background-image: url("../../../build/img/2d6d5090-f270-40e9-84e5-563f9b611e10.jpg");
+}
+body > main > section.descripcion > div > div:nth-child(3) > a > div {
+  background-image: url("../../../build/img/bfd2bd45-c4d1-479f-ace4-a9088720d67b\ \(1\).jpg");
+}
+
+@keyframes escribir {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}

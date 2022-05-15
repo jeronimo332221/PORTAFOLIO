@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "..\\..\\.."
+	},
+	{
+		"path": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\laragon\\www\\bienesraices"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "FACEPUNCH - copia"
+  }
+}

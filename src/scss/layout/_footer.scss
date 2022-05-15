@@ -1,0 +1,23 @@
+footer {
+  margin-top: 10rem;
+  height: 48rem;
+}
+
+.svg {
+  width: 74;
+  height: 74;
+}
+body > footer > div > ul {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+::marker {
+  height: 0.1rem;
+  display: none;
+  visibility: hidden;
+  color: black;
+  margin-top: 1rem;
+  position: absolute;
+}

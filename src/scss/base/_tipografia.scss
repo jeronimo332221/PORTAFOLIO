@@ -1,0 +1,82 @@
+@use "variables" as v;
+
+h1,
+h2,
+h3,
+ul,
+h4,
+h5 {
+  margin: 0 0 0 0;
+  font-weight: $c;
+  font-family: $fuente_principal;
+  color: $blanco;
+}
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 5rem;
+}
+h3 {
+  font-size: 4rem;
+}
+p {
+  font-size: 2rem;
+  color: $blanco;
+  line-height: 1.8;
+  font-weight: $b;
+  font-family: $fuente_terciaria;
+}
+.descripcion-pagina {
+  text-align: center;
+}
+.typeline {
+  font-weight: 900;
+  color: $negro;
+  font-size: 3rem;
+  text-align: center;
+}
+.titulo {
+  width: 100%;
+
+  position: relative;
+  margin: auto;
+  font-size: 7.5rem;
+  margin-bottom: 11rem;
+  margin-top: 30rem;
+
+  @media (min-width: 768px) {
+    width: 80%;
+    position: relative;
+    margin: auto;
+    font-size: 5.6rem;
+    margin-bottom: 6rem;
+    margin-top: 30rem;
+  }
+
+  .titulo-decoracion {
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 7%;
+    width: 40%;
+    background-color: $cy-1;
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+}
+@keyframes slidein {
+  from {
+    margin-left: 60%;
+    width: 40%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 0%;
+  }
+}

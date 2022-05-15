@@ -1,0 +1,42 @@
+@use "variables" as v;
+@use "mixins";
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  height: 100%;
+}
+body {
+  font-size: 1.6rem;
+  min-height: 100%;
+}
+.contenedor {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.contenedor-sm {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: $blanco;
+}
+img {
+  max-width: 100%;
+}
+
+.titulo {
+  width: 10%;
+
+  label {
+    position: absolute;
+  }
+}
