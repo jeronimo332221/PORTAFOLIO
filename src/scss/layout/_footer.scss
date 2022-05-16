@@ -1,5 +1,5 @@
 footer {
-  margin-top: 10rem;
+  margin-top: 18rem;
   height: 48rem;
 }
 
@@ -8,6 +8,15 @@ footer {
   height: 74;
 }
 body > footer > div > ul {
+  @include tablet {
+    margin-top: 14rem;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  flex-direction: column;
   margin-top: 10rem;
   display: flex;
   align-items: center;

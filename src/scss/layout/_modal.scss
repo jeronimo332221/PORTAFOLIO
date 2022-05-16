@@ -9,7 +9,7 @@
 
   .proyecto-modal {
     @include tablet {
-      padding: 0 6rem;
+      padding: 0 10rem;
       width: 80%;
       height: 100%;
       background-color: rgba(darken($bg-2, 10%), 0.89);
