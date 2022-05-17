@@ -4,7 +4,7 @@ main {
     margin-top: 5rem;
     margin-bottom: 6rem;
     margin: auto;
-    width: 90%;
+    width: 78%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -25,25 +25,33 @@ main {
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: space-around;
 
+      margin-left: 10rem;
+      gap: 20rem;
       @include tablet {
+        margin-left: 0rem;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        gap: 6.5rem;
+        gap: 8.5rem;
         height: 44rem;
         margin-bottom: 2rem;
       }
+      margin-bottom: 14rem;
 
       .proyecto {
         margin-left: 10rem;
         margin-right: -10rem;
-        width: 42rem;
+
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-bottom: 15rem;
+        margin-bottom: 25rem;
 
+        margin: auto;
+
+        text-align: center;
         @include tablet {
           width: 32rem;
           display: flex;
@@ -123,7 +131,7 @@ body > main > section.descripcion > div > div > a > div {
   color: $cy-4;
 }
 body > main > section.descripcion > div > div:nth-child(1) > a > div {
-  background-image: url("../../../build/img/0956c2ec-ce78-4b9b-9a03-4b4efb073cf2.jpg");
+  background-image: url("../../../build/img/festival.jpg");
 }
 body > main > section.descripcion > div > div:nth-child(2) > a > div {
   background-image: url("../../../build/img/2d6d5090-f270-40e9-84e5-563f9b611e10.jpg");
@@ -138,5 +146,11 @@ body > main > section.descripcion > div > div:nth-child(3) > a > div {
   }
   to {
     width: 0;
+  }
+}
+body > main > div > p > strong > a {
+  color: $cy-1;
+  :hover {
+    color: $cy-3;
   }
 }

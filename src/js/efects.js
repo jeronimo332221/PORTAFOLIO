@@ -1,6 +1,13 @@
 function cl($data) {
   console.log($data);
 }
+const body = document.getElementById("body");
+const onload = document.getElementById("onload");
+
+window.onload = function () {
+  body.classList.remove("hover");
+  body.removeChild(onload);
+};
 
 let animado = document.querySelectorAll(".animado");
 let animado1 = document.querySelectorAll(".animado1");

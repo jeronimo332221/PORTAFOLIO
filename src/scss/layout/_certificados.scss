@@ -38,6 +38,7 @@
   .enlace {
     border-radius: 3rem;
     width: 60%;
+    margin: auto;
     @include boton($bg-2, $cy-3);
     margin-top: 5rem;
   }

@@ -18,9 +18,13 @@ body > footer > div > ul {
   }
   flex-direction: column;
   margin-top: 10rem;
+  margin-bottom: 10rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
+  li {
+    margin-top: 4rem;
+  }
 }
 ::marker {
   height: 0.1rem;

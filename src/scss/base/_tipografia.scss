@@ -56,12 +56,13 @@ p {
 
   .titulo-decoracion {
     position: absolute;
+    margin: auto;
 
     right: 0;
     left: 0;
     bottom: 0;
     height: 7%;
-    width: 40%;
+    width: 100%;
     background-color: $cy-1;
     animation-duration: 1s;
     animation-name: slidein;

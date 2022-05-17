@@ -14,9 +14,9 @@
       z-index: 1000;
       gap: 1.2rem;
       height: 100vh;
-      width: 97vw;
+      width: 100%;
       background-color: rgba($bg-1, 0.6);
-      border-bottom: 4rem solid $bg-1;
+      border-bottom: 1rem solid $bg-1;
 
       h1 {
         @include tablet {

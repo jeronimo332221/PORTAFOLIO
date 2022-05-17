@@ -2,7 +2,9 @@
   transform: translate(10vh, 0vh);
   transition: all 1s;
 }
-
+.hover {
+  overflow: hidden;
+}
 .fadeLeft {
   transform: translate(-10vh, 0vh);
   transition: all 1s;

@@ -50,16 +50,33 @@
       margin: auto;
     }
     .boton-modal {
+      margin: auto;
       border-radius: 3rem;
-      width: 60%;
-      width: 30rem;
+      position: absolute;
+
       margin-top: 1rem;
-      @include boton($cy-3, $blanco);
+      bottom: 0;
+      left: 0;
+      right: 0;
+      @include boton($bg-2, $cy-3);
     }
     .link-modal {
+      margin: auto;
       border-radius: 3rem;
       width: 60%;
-      @include boton($bg-2, $cy-3);
+      @include boton($cy-3, $blanco);
+
+      @include telefono {
+        margin: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-bottom: 5rem;
+        border-radius: 3rem;
+        width: 90%;
+      }
+
       margin-top: 5rem;
     }
   }

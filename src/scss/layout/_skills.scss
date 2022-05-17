@@ -1,13 +1,24 @@
 .grafico {
   position: relative; /* IE is dumb */
-  width: 50%;
+  width: 90%;
   border: 1px solid $cy-2;
   padding: 2px;
+  font-family: $fuente_terciaria;
+  font-size: 2rem;
+  @include tablet {
+    position: relative; /* IE is dumb */
+    width: 70%;
+    border: 1px solid $cy-2;
+    padding: 2px;
+    font-family: $fuente_terciaria;
+    font-size: 3rem;
+  }
 }
 .grafico .barra {
   display: block;
   position: relative;
   background: $cy-5;
+
   text-align: center;
   color: $blanco;
   height: 2em;
