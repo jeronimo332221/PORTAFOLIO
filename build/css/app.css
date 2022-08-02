@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 @import url(animate.css);
 html {
@@ -191,6 +191,7 @@ h3,
 h4,
 h5,
 ul {
+  text-align: center;
   margin: 0;
   font-weight: 700;
   font-family: Mukta, sans-serif;
@@ -228,6 +229,7 @@ p {
   margin: 30rem auto 11rem;
 }
 @media (min-width: 768px) {
+  
   .titulo {
     width: 80%;
     position: relative;
@@ -453,6 +455,10 @@ body > main > section.descripcion > div > div:nth-child(2) > a > div {
 body > main > section.descripcion > div > div:nth-child(3) > a > div {
   background-image: url("../../../build/img/bfd2bd45-c4d1-479f-ace4-a9088720d67b (1).jpg");
 }
+body > main > section.descripcion > div > div:nth-child(4) > a > div {
+  background-image: url("../../../build/img/1bde7bb3-5592-4070-a5da-4067f862b236.jpg");
+}
+
 @-webkit-keyframes escribir {
   0% {
     width: 100%;
@@ -595,6 +601,13 @@ body > main > div > p > strong > a :hover {
 footer {
   margin-top: 18rem;
   height: 48rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.ul{
+  display: flex;
 }
 .svg {
   width: 74;
@@ -805,6 +818,7 @@ body {
   height: 100vh;
   width: 90vw;
 }
+
 .preloader img {
   display: flex;
   justify-content: center;
